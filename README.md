@@ -1,9 +1,9 @@
-Memory Graduation
-=================
+Master Thesis
+=============
 
 ## How to compile ?
 
-    pandoc sources/*.md -o compiled/memory.pdf
+    pandoc sources/*.md -o compiled/thesis.pdf
     
 ## License
 
