@@ -3,7 +3,7 @@ Master Thesis
 
 ## How to compile ?
 
-    pandoc sources/*.md -o compiled/thesis.pdf
+    pandoc --template=template.latex sources/*.md -o compiled/thesis.pdf
     
 ## License
 

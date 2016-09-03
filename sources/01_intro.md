@@ -1,5 +1,5 @@
 
-Introduction, HungryUp : un nouveau défi 
+Introduction : HungryUp, un nouveau défi 
 ========================================
 
 Nous sommes tous confrontés, au restaurant, à un moment du service 

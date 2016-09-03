@@ -1,4 +1,5 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\usepackage{graphicx}
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
 $if(beamerarticle)$
@@ -215,6 +216,9 @@ $endif$
 \begin{document}
 $if(title)$
 \maketitle
+\includegraphics{sources/images/logo-green.png}
+\thispagestyle{empty}
+\setcounter{page}{0}
 $endif$
 $if(abstract)$
 \begin{abstract}
