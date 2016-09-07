@@ -1,18 +1,18 @@
-Analyse du contexte : Paris, un milieu propice à l'innovation
-=============================================================
+Analyse du contexte : Entre un environnement opportun et une histoire singulière
+================================================================================
 
-Ce mémoire prend place dans un univers en pleine expansion, HungryUp est 
-une startup située à Paris, qui conçoit une application mobile. Bien que 
-jeune, la société possède son histoire qui va influencer son évolution.
+Ce mémoire prend place dans un univers en pleine expansion. HungryUp est 
+une startup située à Paris qui conçoit une application mobile. Bien que 
+récente, la société possède son histoire qui va influencer son évolution.
 
-## La startup à Paris
+## Paris, un milieu propice à l'innovation.
 
 L'écosystème des startups est particulier. En premier lieu, il faut 
-considérer ce qu'est une startup. Il s'agit d'une structure à la 
+considérer ce qu'est une startup : Il s'agit d'une structure à la 
 recherche d'un moyen de produire une croissance exponentielle.
 
-Souvent, une startup ne produit pas de chiffre d'affaires, en tout cas 
-n'est pas excédentaire. Pour aller chercher ces premières métriques, la 
+Souvent, une startup ne génère pas de chiffre d'affaires, en tout cas 
+n'est pas excédentaire. Pour aller chercher ces premiers résultats, la 
 startup va lever des fonds auprès d'investisseurs. Ces investisseurs 
 sont souvent d'abord familiaux, puis il s'agit de particuliers, et enfin 
 les plus importantes levées de fonds proviennent de fonds 
@@ -31,20 +31,20 @@ sera dans l'obligation de revoir sa cible et son business parfois
 plusieurs dizaines de fois avant de trouver son métier exact.
 
 À Paris, la majorité des startups se retrouvent dans des espaces de 
-travail partagé, dans des incubateurs, des hôtels d'entreprise... Par 
-exemple, on peut citer The Family et 1001 Startups. Bien qu'en 
-concurrence est forte, il n'est pas rare de voir des connexions entre 
+travail partagés, dans des incubateurs, des hôtels d'entreprise... Par 
+exemple, on peut citer The Family et 1001 Startups. Bien que la 
+concurrence soit forte, il n'est pas rare de voir des connexions entre 
 les startups au sein notamment de ces incubateurs. Il ne faut pas négliger 
-également les listes de diffusion, qui permettent de toucher beaucoup de 
+également, les listes de diffusion qui permettent de toucher beaucoup de 
 professionnels qui vont partager leur expérience. La seule contrepartie 
-implicite est d'en faire de même. On tisse ainsi de gros réseaux au 
-niveau local, national et international.
+implicite est d'en faire de même. On tisse ainsi de gros réseaux que ce soit au 
+niveau local, national ou international.
 
 Géographiquement, la majorité des startups à Paris se trouvent au centre, 
 entre Gare du Nord, Châtelet et Opéra. Il se trouve qu'il est plus simple 
 d'activer son réseau quand on se trouve dans un environnement central. 
-Cela permet également de rester connecté aux autres pôles startup 
-d'Europe (Londres par exemple).
+Cela permet également de rester connectés aux autres pôles startup 
+d'Europe (Londres par exemple, bien que le Brexit ralentisse cet espoir).
 
 ## Hungry Up, le produit
 
@@ -52,7 +52,7 @@ Hungry Up est une application mobile native[^native], actuellement
 disponible sur iOS et Android. Son objectif est de fluidifier l'expérience
 en salle dans les restaurants par la digitalisation des actions de base.
 Par exemple, il est plus aisé de demander à un serveur de venir nous voir 
-via l'application que de l'interpeler. En procédant ainsi, on réduit la
+via l'application que de l'interpeller. En procédant ainsi, on réduit la
 frustration, mais également les temps  d'attente au restaurant. Ce qui 
 permet aux restaurants d'enregistrer un panier moyen plus important et 
 un plus grand nombre de couverts lors des services importants. À minima,
@@ -71,8 +71,7 @@ Le marché de la foodtech[^foodtech] à Paris vise principalement à externalise
 la nourriture produite par les restaurants, notamment par le biais de la livraison.
 L'actualité est propice à cette orientation, les restaurants enregistrent
 une baisse de la fréquentation liée aux différents attentats. Pour qu'Hungry Up
-puisse fonctionner, un second métier nous incombe : rendre à nouveau attractifs
-les restaurants.
+puisse fonctionner, un second métier nous incombe : rendre de nouveau les restaurants attractifs.
 
 La première solution pour ce regain d'attractivité est la réduction de la 
 frustration, une seconde solution a été trouvée : le référencement des meilleurs
@@ -107,12 +106,12 @@ pictogrammes qui vont remplacer le clavier virtuel du téléphone.
 ## Hungry Up, startup avant tout
 
 Le financement du projet est classique pour une startup en
-recherche de modèle économique, la société a fait une première levée de
+recherche de modèle économique. La société a fait une première levée de
 fonds à sa création, aidée par l'expérience de son directeur dans
 l'entrepreneuriat qui put convaincre plus facilement des investisseurs en
 présentant les chiffres de ses précédentes entreprises. Sur une telle
-première levée de fonds, en réalité une levée de confiance, on mise avant 
-tout sur l'équipe fondatrice que sur le projet. Les investisseurs savent
+première levée de fonds, en réalité une levée de confiance, on mise davantage 
+sur l'équipe fondatrice que sur le projet. Les investisseurs savent
 que le projet va changer, évoluer, et gagner en maturité. Il n'est donc
 pas pertinent d'investir sur l'idée alors que celle-ci par définition va
 évoluer. On préfère donc investir sur une équipe.
@@ -123,11 +122,11 @@ d'avoir une croissance à montrer. Le produit évoluant, se trouvent deux
 contraintes :
 
 * Aller au plus vite dans l'évolution du produit, afin d'avoir un produit
-qui colle aux besoins et qui se vende bien
+qui colle aux besoins et qui se vende bien.
 * Économiser, afin d'avoir assez de fonds jusqu'à la levée de 2017. Cette 
 contrainte est importante, les fonds faisant souvent durer les négociations, 
-afin de provoquer l'urgence de la signature. Le temps est toujours de 
-leur côté.
+afin de provoquer l'urgence de la signature. Le temps est toujours du 
+côté des financeurs.
 
 Pour évoquer cette dualité, je vais parler d'efficience, et de perception
 de la valeur.
@@ -136,15 +135,15 @@ bas pour une chose donnée, mais on va chercher à avoir un ROI[^ROI]
 important, mais également à récupérer toujours le meilleur et le plus 
 pour un budget donné.
 
-[^ASerie]: processus de levée de fonds suivant le capital amorçage, où
+[^ASerie]: Série A : processus de levée de fonds suivant le capital amorçage, où
 on propose d'investir sur l'avenir de la société en échange d'actions.
 [^ROI]: Return on investment ; Retour sur investissement.
 
 ## L'historique du projet : Une conception par des prestataires
 
 Le prototypage et la première orientation ont été faits avant mon
-intégration au projet. J'ai donc récupéré sur le tas tous ces actifs et
-contrats en cours. J'ai donc rapidement dressé un état des lieux. Un
+intégration au projet. J'ai donc récupéré sur le tas tous les actifs et
+contrats en cours. J'ai en conséquence, rapidement dressé un état des lieux. Un
 premier prestataire, AppSolute, a créé la première version de 
 l'application, que je nomme version 0. Ce prototype bien que simple a
 eu pour objectif de tester le marché. La partie serveur, responsable
@@ -161,7 +160,7 @@ Je n'ai pas grand-chose à dire sur ce projet que j'ai récupéré et à peine
 survolé. Le seul point négatif relevé est la nomenclature utilisée pour
 l'identifiant technique des applications. Il faut savoir que côté Apple
 et Google, ces identifiants servent à lier les utilisateurs ayant
-téléchargé l'application à l'application elle même. Ces identifiants
+téléchargé l'application à l'application elle-même. Ces identifiants
 contenaient le nom du prestataire, ce qui ne se fait généralement pas
 pour ce type de prestation. J'ai dû créer de nouvelles applications pour
 la version 1 du projet, ce qui a impliqué la perte de l'historique des
@@ -219,7 +218,7 @@ deviner, d'en étudier, le fonctionnement interne.
 
 Après un certain temps passé à comprendre le système, je me suis rendu 
 compte qu'il était très éloigné de l'état de l'art[^stateofart]. J'ai
-donc pris la liberté de réaliser une analyse, une sorte d'audit, du code
+donc décidé de réaliser une analyse, une sorte d'audit, du code
 en question. La raison étant simple : cette partie est la partie critique
 de notre produit, il doit être le plus sain possible. 
 
@@ -251,7 +250,7 @@ si le grain de sel n'est pas identique.
 
 Le second problème concernait la qualité du projet. La dette technique 
 contractée par la prestation était très importante. Il est commun sur le
-langage utilisé d'utiliser les normes dites PSR[^PSR], ces normes sont 
+langage utilisé d'appliquer les normes dites PSR[^PSR], ces normes sont 
 votées au sein d'un groupe regroupant les principaux acteurs du secteur,
 dans un but de favoriser l'interopérabilité du code. Parmi ces
 signataires, on trouve par exemple Drupal, Symfony (Sensiolabs), Joomla,
@@ -277,28 +276,28 @@ l'accès à l'immense majorité des pages web.
 [^backdoor]: On parle de porte dérobée (backdoor) pour mentionner un
  accès caché et non documenté.
 
-Je n'ai pas considéré les pertes en termes de performances lors de mon
+Je n'ai pas pris en compte les pertes en termes de performances lors de mon
 analyse, considérant que la rapidité de prototypage et l'importance de
 débloquer le travail de Soluti étaient plus importantes.
 
 La dernière problématique soulevée était la présence de vulnérabilités
 techniques et de manque de stabilité. Le projet comportait beaucoup de 
 failles communes, permettant entre autres d'exposer toutes les données
-client. De plus, les échanges avec cette API n'étaient pas chiffrés, 
-exposant tous les échanges sur le réseau. Dans ma démarche de qualité et
+clients. De plus, les échanges avec cette API n'étaient pas chiffrés, 
+exposant tous ces derniers sur le réseau. Dans ma démarche de qualité et
 de respect des utilisateurs, j'ai considéré ces problématiques comme
 étant bloquantes. Ma première réaction fut de les quantifier pour les
 corriger. Malheureusement, leur présence était trop importante, et je ne
 pouvais quantifier ce que je ne voyais pas. J'ai donc pris la décision
 de contacter le directeur de cette agence afin de lui faire part de mes 
-constats. Mon manque de diplomatie, et ma franchise ont eu l'effet de
+constats. Mon manque de diplomatie et ma franchise ont eu l'effet de
 braquer le prestataire qui nous demanda le règlement de la prestation,
 en refusant de continuer le travail. Nous étions le 25 avril 2016,
 la sortie prévue de l'application devait se dérouler le 2 mai.
 
 ## Dans les traces de la livraison
 
-La restauration est un secteur vaste, mais complexe, en effet les 
+La restauration est un secteur vaste, mais complexe. En effet, les 
 restaurants ne dégagent pas facilement de profits. Chaque euro compte, 
 certaines choses apportent plus de bénéfices que d'autres, certaines 
 sont offertes gratuitement, de par notre culture. Par exemple, les 
@@ -316,13 +315,13 @@ Depuis, le secteur a évolué, de nombreux entrants sont arrivés, l'offre
 est maintenant plus abordable, mais également très vaste. On compte 
 ainsi de très nombreux acteurs, tel que Deliveroo, Foodora, Resto-In, 
 UberEats, Take Eat Easy... Les restaurants sont contactés quotidiennement 
-par des services de livraison, ou assimilés. Leurs marges sont cependant 
+par des services de livraison ou assimilés. Leurs marges sont cependant 
 réduites (En moyenne 20% à 30%)
 
 Le principal point bloquant se trouve sur cet aspect harcèlement, les 
 restaurants sont beaucoup moins accessibles et rejettent facilement de 
 nouvelles offres commerciales. Au centre de tout cela, la multiplication 
-des périphériques : Chacun de ces services apporte avec lui un appareil 
+des périphériques : chacun de ces services apporte avec lui un appareil 
 permettant de gérer son service, généralement une tablette tactile. Du 
 coup, les restaurateurs doivent avoir un ordinateur (pour gérer des 
 réservations via La Fourchette par exemple), leur caisse, et un certain 
@@ -331,4 +330,4 @@ client.
 
 De plus, un effet bien connu des restaurants est l'effet "mouton", des clients viennent plus facilement dans un restaurant plein que vide. Il est complexe d'attirer de nouveaux clients quand le restaurant concentre une grande partie de son activité sur de la livraison, où les clients ne sont pas visibles.
 
-L'échec de Take Eat Easy a beaucoup marqué les esprits. L'attitude non professionnelle qu'ils ont eu nous ferme des portes (certains restaurants ayant eu une note de plus de 3 000€ non réglée, ils ne souhaitent pas signer avec un autre nouveau service), mais nous offre un avantage énorme : notre commission est de 4%. Nous pouvons alors mettre en avant notre bienveillance, notre objectif est de ramener des clients sur place, et non pas d'étouffer le restaurant. Sa cuisine ne se trouve pas non plus saturée, car sa charge sera toujours limitée à sa place en salle.
+L'échec de Take Eat Easy a beaucoup marqué les esprits. L'attitude non professionnelle qu'ils ont eut nous ferme des portes (certains restaurants ayant eu une note de plus de 3 000€ non réglée, ils ne souhaitent pas signer avec un autre nouveau service), mais nous offre un avantage énorme : notre commission est de 4%. Nous pouvons alors mettre en avant notre bienveillance, notre objectif est de ramener des clients sur place, et non pas d'étouffer le restaurant. Sa cuisine ne se trouve pas non plus saturée, car sa charge sera toujours limitée à sa place en salle.

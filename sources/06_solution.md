@@ -8,12 +8,12 @@ L'amélioration de l'efficience d'Hungry Up passe par un ensemble d'amélioratio
 
 ### Automatisations
 
-Depuis mon intégration au projet, j'essaye d'incorporer ma vision d'un
-projet technologique. Cela passe par un principe simple : Si on doit 
+Depuis mon intégration au projet, j'essaye d'apporter ma vision d'un
+projet technologique. Cela passe par un principe simple : si on doit 
 faire une chose plus d'une fois, alors c'est qu'elle doit être 
 automatisable et automatisée. Ainsi, à date, un grand nombre de choses, 
 que ce soit des outils de développement ou des processus rébarbatifs 
-sont d’ores et déjà automatisés. Les avantages sont un gain de temps sur 
+sont d’ores-et-déjà automatisés. Les avantages sont un gain de temps sur 
 le moyen et long terme et une réduction du risque d'erreurs. Le 
 principal avantage est justement la perte de temps sur le court terme, 
 car la rentabilité de cette automatisation nécessite qu'elle soit 
@@ -35,7 +35,7 @@ configurations entrées au préalable sur notre backoffice. Ce PDF généré
 pouvait être alors envoyé en l'état à l'imprimeur. Il se trouve que ce
 choix bien que faisant gagner du temps de manière quasi immédiate, n'a 
 jamais été rentabilisé, nous sommes revenus sur cette décision de 
-personnaliser les chevalets à ce point.
+personnaliser les chevalets.
 
 [^forex]: Le PVC expansé, plus communément appelé Forex® est un matériau 
 léger et rigide, souvent utilisé pour la signalétique.
@@ -43,7 +43,7 @@ léger et rigide, souvent utilisé pour la signalétique.
 #### Encodage des visuels
 
 Une seconde automatisation concernait l'encodage des images pour notre
-aperçu des plats, il était plus simple et rapide de ne pas mettre en 
+aperçu des plats, il était plus simple et plus rapide de ne pas mettre en 
 place à date une mécanique de redimensionnement à la volée des images de
 ces plats. Il fallait alors demander à ce que chaque image mise en ligne 
 sur la plateforme soit correctement dimensionnée. L'équipe commerciale 
@@ -56,7 +56,7 @@ une image floue qui devient de plus en plus nette pendant son
 téléchargement. Ce type d'expérience sur les réseaux mobiles est 
 importante, car moins frustrante.) Il s'agit là d'une automatisation de
 moyen terme, servant à pallier de manière rapide à un besoin, mais la
-solution long terme sera de mettre en place ce système de traitement à 
+solution à long terme sera de mettre en place ce système de traitement à 
 la volée. 
 
 #### Gestion des pictogrammes
@@ -76,15 +76,15 @@ Charger une image depuis le réseau aurait pu être une solution, mais ce
 type de chargement est lent, et risque de produire une mauvaise 
 expérience utilisateur. Après recherches, j'ai pu confirmer que de par 
 mon expérience du web, la solution commune pour les sites internet 
-pouvait être applicable à notre application. L'astuce est simple : on 
+pouvait être utilisée pour notre application. L'astuce est simple : on 
 crée une typographie avec ces pictogrammes. 
 
-Basiquement, une typographie c'est une suite de formes associées à des
+À la base, une typographie est une suite de formes associées à des
 codes représentant un caractère. Dans cette table de caractères 
 possibles, il n'y a pas que les lettres latines, mais bien plus, ce qui 
 nous laisse une large possibilité de pictogrammes sans pour autant 
 augmenter le poids du transfert. On va alors donner un numéro de version 
-à une typographie. À la connexion à la table, en même temps que la liste
+à une typographie. Lors de la connexion à la table, en même temps que la liste
 des actions, on va donner la version minimale de la typographie à avoir, 
 si la version minimale est supérieure à la version actuellement sur 
 l'application, il suffit de récupérer la dernière version. Ainsi, notre 
@@ -102,12 +102,12 @@ faut renseigner un certain nombre de captures d'écran, généralement un
 minimum de trois. Afin que l'application soit validée, ces captures 
 d'écran doivent être fidèles à l'application, ce qui nécessite de les 
 mettre à jour régulièrement (à chaque nouvelle version). De plus, pour 
-être attractif, il est recommandé de faire d'autres petites choses : 
+être attractif, il est recommandé de créer un environnement : 
 Mettre la capture d'écran dans un contexte (dans un faux iPhone pour 
 iOS par exemple), d'avoir une barre de statuts propre (avec une heure 
 fixe, ma batterie à 100%, etc...), et enfin d'ajouter un fond et un 
-texte court de présentation. Il faut évidemment que tout ça soit fait 
-pour chaque langue dans laquelle l'application est disponible. Ce 
+texte court de présentation. Il faut évidemment que tout cela soit fait 
+dans chaque langue pour laquelle l'application est disponible. Ce 
 travail peut vite devenir chronophage, en effet pour un support de 5 
 langues, avec 5 captures d'écran, il faudrait faire 25 captures d'écran,
 puis les traiter une par une, et ce à chaque version. Tout ce système a 
@@ -115,19 +115,19 @@ puis les traiter une par une, et ce à chaque version. Tout ce système a
 l'automatisation avec le plus court retour sur investissement, il a été 
 rentabilisé presque immédiatement. Comme pour les autres automatisations,
 il réduit également le risque d'erreurs, mais dans ce cas précis, il
-supprimer la frustration de cette tâche.
+supprime la frustration de cette tâche répétitive.
 
 #### Automatisation des processus de déploiement
 
 Notre solution repose sur des serveurs hébergés chez AWS[^AWS],
 un fournisseur de ressources dynamiques dites de "Cloud computing". Son 
-offre repose sur deux briques de base : EC2, son offre de compute, il 
+offre repose sur deux briques de base : EC2, son offre de calcul, il 
 s'agit des serveurs visant à générer la puissance de calcul et S3, son 
 offre de stockage. AWS est également constitué d'un panel de services 
 exploitant ces deux briques, qui vont faciliter la mise en place de 
 serveurs, en abstraire la gestion, etc... L'intérêt majeur de ces 
 services pour le client est leur simplicité d'utilisation. L'intérêt 
-majeur pour Amazon est de rendre les clients dépendants de ces services. 
+primordial pour Amazon est de rendre les clients dépendants de ces services. 
 Il y a ainsi un juste milieu à arbitrer afin de perdre le moins de temps,
 mais de rester le moins dépendant.
 
@@ -136,15 +136,15 @@ mais de rester le moins dépendant.
 Premier outil utilisé : Elastic beanstalk. Ce service AWS permet de
 définir des scripts de configuration qui vont décrire l'environnement 
 dans lequel le projet doit s'exécuter. La force du service est d'avoir 
-un outil en ligne de commande qui permet au développeur de mettre à jour 
+un outil en lignes de commande qui permet au développeur de mettre à jour 
 sa plateforme et de la configurer dans avoir à naviguer sur le site 
 d'AWS. C'est un réel gain de temps. De plus, il est simple d'exploiter 
 cet outil pour créer des routines et automatismes. J'ai choisi ce 
 service principalement, car je le connaissais déjà, ce qui m'a permis de 
 monter une infrastructure scalable[^scalable] et sur mesure très 
 rapidement. Une fois que nous aurons plus de ressources, il s'agira ici 
-d'un point d'investissement important afin de couper notre dépendance à 
-ce service, et pouvoir faire jouer la concurrence en termes de Cloud 
+d'un point d'investissement important afin de stopper notre dépendance à 
+ce service, et pouvoir faire jouer la concurrence en terme de Cloud 
 computing.
 
 [^scalable]: Anglicisme, qualifie un produit pouvant monter en charge 
@@ -153,35 +153,37 @@ l'application pourra passer de 10 à 1 000 000 d'utilisateurs quotidiens
 sans en souffrir outre mesure.
 
 Ensuite, notre base de données documentaire, MongoDB, a été choisie en 
-partie pour sa simplicité de configuration, de déploiement, et sa 
+premier lieu pour sa simplicité de configuration, de déploiement, et sa 
 réputation de scalabilité. Elle est déployée directement dans EC2, mais 
 cette fois à l'aide d'un outil payant de MongoDB. L'avantage de cet 
 outil est qu'il sert d'abstraction entre le déploiement et le 
 fournisseur de Cloud, il est ainsi simple de passer d'un fournisseur de 
-Cloud à un autre. Un avantage secondaire est d'avoir de fait un contact 
+Cloud à un autre. Un deuxième avantage est d'avoir de fait un contact 
 commercial chez MongoDB, en effet il est important d'exister auprès d'un 
 éditeur pour négocier un partenariat plus facilement. MongoDB propose du 
-support, de la formation, et un tas d'autres services autour de son 
+support, de la formation, et une quantité d'autres services autour de son 
 outil gratuit.
 
-Enfin, nous utilisons EC2 pour un tas d'autres services à la criticité
-moindre. Ces services n'ont pas besoin d'être disponible 24/7, les
+Enfin, nous utilisons EC2 pour plusieurs autres services à la criticité
+moindre. Ces services n'ont pas besoin d'être disponibles 24/7, les
 données sont donc sauvegardées, mais nous n'avons pas besoin de mettre en 
 place d'outils de haute disponibilité. Par contre, afin de faciliter un 
 redéploiement, de pouvoir remonter le service rapidement en cas de 
 panne, etc... Leur déploiement a été scripté afin d'être automatisé, via
-Ansible. Ainsi, il suffit de créer une nouvelle machine virtuelle et de 
+Ansible[^ansible]. Ainsi, il suffit de créer une nouvelle machine virtuelle et de 
 lancer le script afin que le service s'installe et se configure 
 automatiquement.
+
+[^ansible]: Ansible est un outil de déploiement automatisé ayant été racheté récemment par Red Hat
 
 Pour l'anecdote, Ansible est également utilisé en interne pour la 
 configuration des postes de développement. Ainsi, nous avons deux 
 ordinateurs sous linux pour les stagiaires en développement web, ces 
-derniers possèdent leurs scripts de déploiement qui permet de maintenir
-à jour cette configuration. Même le raspberry dont son unique rôle est 
-de faire apparaître sur un écran au sein de la société les statistiques 
-de base de l'application (en temps réel) possède son script de 
-déploiement. Ainsi, si demain on doit créer un nouveau type de 
+derniers possèdent leurs scripts de déploiement, ce qui permet de maintenir
+à jour cette configuration. Même le raspberry dont l'unique rôle est 
+de faire apparaître, sur un écran au sein de la société, les statistiques 
+de base de l'application (en temps réel), possède son script de 
+déploiement. Ainsi, si on doit créer ultérieurement un nouveau type de 
 configuration d'ordinateur, on peut partir du même script en modifiant 
 uniquement ce qui diffère entre les deux environnements.
 
@@ -208,16 +210,16 @@ marque)
 Toutes ces étapes se trouvent être longues, et font perdre un temps 
 considérable pour chaque nouvelle tablette à configurer. Nous avons 
 acquis les 20 premières tablettes, préconfigurées avec les instructions 
-ci-dessus. Cependant cette configuration induisait un surcout de 20 
-euros par tablette, ce qui augmentait considérablement nos frais. De 
-plus, dans le cas où une tablette d'un restaurant était récupérée, il 
-fallait tout refaire à la main. J'ai alors cherché des moyens 
+ci-dessus. Cependant cette configuration induisait un surcoût de 20 
+euros par tablette, ce qui augmentait sensiblement nos frais. De 
+plus, dans le cas où la tablette d'un restaurant était récupérée, il 
+fallait tout refaire manuellement. J'ai alors cherché des moyens 
 d'automatiser ces configurations, afin de faire des économies, et 
 surtout de gagner en flexibilité.
 
-Parmi ces moyens, il existe ce que l'on appelle le MDM[^mdm], proposé 
+Parmi les solutions existantes, il figure ce que l'on appelle le MDM[^mdm], proposé 
 par beaucoup de services, dont Cisco Meraki. Le problème de ces SaaS 
-c'est qu'ils coutent cher, il s'agit d'un tarif par mois par matériel. 
+est qu'ils coûtent cher. Il s'agit d'un tarif mensuel par matériel. 
 Leur avantage étant de pouvoir gérer de manière identique un large parc 
 hétérogène de matériels. L'idée derrière le MDM est plutôt de venir en
 renfort sur du BYOD[^byod] : les salariés d'une société qui utilisent 
@@ -228,8 +230,8 @@ sécurisée.
 [^mdm]: Mobile Device Management
 [^byod]: Bring your own device
 
-Je suis alors parti du principe que nos tablettes Android sont 
-basiquement du linux, il est alors théoriquement possible d'y gérer une 
+Je suis alors parti du principe que nos tablettes Android sont de base
+sous linux, il est alors théoriquement possible d'y gérer une 
 configuration via Ansible par exemple. Le problème à cela est qu'il est 
 du coup nécessaire d'y avoir une connexion SSH, et donc que la tablette 
 soit rootée [^rootDevice], ce qui implique d'introduire dans le parc de 
@@ -246,15 +248,15 @@ s’ils connaissaient des solutions permettant de répondre à mes critères.
 Après de nombreux échanges, on m'a conseillé de regarder les services de 
 la société GenyMobile.
 
-Je connaissais déjà GenyMobile, il s'agit d'une société d'une société 
+Je connaissais déjà GenyMobile, il s'agit d'une société 
 fournissant une expertise Android, j'avais souvent recommandé à mes 
 étudiants en développement Java et Android d'utiliser l'outil GenyMotion, 
-qui sert d'émulateur Android, cet émulateur était bien plus performant 
+qui sert d'émulateur Android. Cet émulateur était bien plus performant 
 que l'émulateur fourni par Google. J'ai un profond respect pour le 
 travail fourni par GenyMobile, qui est toujours de qualité, de plus il 
 s'agit d'une autre startup française.
 
-GenyMobile propose deux types d'offres répondant à ma problématique, la 
+GenyMobile propose deux types d'offres répondant à ma problématique. La 
 première, GenyMaster, consiste à concevoir un système Android 
 personnalisé. Ce système inclura un système de gestion des mises à jour, 
 et permet également d'avoir une configuration par défaut. GenyMaster est 
@@ -262,18 +264,17 @@ utilisé par de gros clients, et il s'agit d'une solution très couteuse.
 Dans notre cas, nous prenons des tablettes à bas coût, il n'est donc pas 
 adapté d'utiliser une solution aussi chère pour cela.
  
-La seconde offre, GenyDeploy, est celle que j'ai retenue, le produit 
+La seconde offre, GenyDeploy, est celle que j'ai retenue dont le produit 
 consiste en la création de fichiers de déploiement permettant de 
 configurer un appareil. Le produit utilise le mode debug de la tablette 
 pour la configurer, le processus de déploiement est alors très simple : 
-Il suffit de prendre une tablette, d'activer le mode debug, et de le 
+il suffit de prendre une tablette, d'activer le mode debug, et de le 
 brancher à un ordinateur. Ce dernier va détecter qu'un nouveau 
 périphérique est branché, et va le configurer automatiquement. À l'issue 
 de cette configuration, GenyDeploy va retirer le mode debug. Nous avons 
 également une station de recharge, il s'agit tout simplement d'un 
-adaptateur USB pour secteur, comportant 5 ports USB. Ainsi, quand on 
-reçoit une tablette, on la configure puis on la met à recharger. On la 
-range alors dans notre stock, toutes les tablettes sont prêtes à être 
+adaptateur USB pour secteur, comportant 5 ports USB. Ainsi, lorsque nous recevons une tablette, nous la configurons puis nous la mettons à recharger. Nous la 
+rangeons alors dans notre stock, toutes les tablettes sont prêtes à être 
 prises par les commerciaux. Ultime étape, les commerciaux renseignent 
 la tablette sur un tableau Trello servant à la gestion de stock 
 (simplifié, nous n'avions pas de temps à perdre pour un système plus 
@@ -299,16 +300,16 @@ conception d'une autre. En réalité, le gain se fait en tirant profit
 du mode agile de la startup, et son adaptation rapide au terrain. 
 
 Lors de la conception d'une fonctionnalité, le retour des utilisateurs
-mène souvent à des modifications. Le problème c'est que si les 
+mène souvent à des modifications. Le problème est que si les 
 différentes plateformes sont au même niveau de développement les unes 
-et les autres, chaque retour doit être traité deux fois. L'idée derrière
+des autres, chaque retour doit être traité deux fois. L'idée derrière
 cette dégradation est de rendre artificiellement une plateforme en
 retard sur une autre. Par exemple, et c'est notre décision, en affectant
 deux développeurs sur l'application iOS, et une seule sur l'application
 Android. Ainsi, l'application iOS avance bien plus vite, et une nouvelle
 version y est publiée plus rapidement. Suivant les retours des
-utilisateurs, on effectue des correctifs puis on sort une nouvelle
-version. L'application Android, elle, étant en retard, se retrouve avec
+utilisateurs, nous effectuons des correctifs puis nous sortons une nouvelle
+version. L'application Android, elle, étant retardée, se retrouve avec
 ses spécifications déjà corrigées. 
 
 Dans notre cas, pour pouvoir se réserver la possibilité de rattraper le
@@ -325,21 +326,21 @@ un besoin, ensuite une maquette est produite par le graphiste, et cette
 maquette sert de cahier des charges pour la production. Il y a un effet 
 conséquent d'interprétation entre le besoin et l'élément final produit. 
 De nombreux retours sont faits, et beaucoup de questions émergent. 
-Encore une fois, ce phénomène d'aller-retour est très couteux en temps. 
+Encore une fois, ce phénomène d'aller-retour est très coûteux en temps. 
 De plus, la rédaction de documents formels décrivant une fonctionnalité 
 se trouverait être une perte de temps, car sur un fonctionnement où l'on 
 développe en interne, le temps de rédaction d'un côté puis le temps de 
 compréhension de l'autre rendrait le tout assez long. 
 
-Pour moi, la meilleure manière était donc de modéliser ça de manière 
+Pour moi, la meilleure manière était donc de modéliser cela de manière 
 graphique. En effet, l'homme analyse beaucoup plus facilement et 
 rapidement une donnée graphique qu'un texte. 
 
 Ainsi, on distingue deux types de productions graphiques. La première, 
 les mockups, permet de valider l'expérience utilisateur avant toute 
-production graphique. Ainsi on gagne du temps sur la production des 
+production graphique. Ainsi, on gagne du temps sur la production des 
 éléments graphiques, car on peut travailler plus efficacement, en 
-annotant directement le mockup, valider la présentation la meilleure, 
+annotant directement le mockup, valider la meilleure présentation,
 mais également la présentation la plus rapide à mettre en place.
 
 Pour la seconde, il s'agit de la véritable modélisation de processus 
@@ -351,21 +352,21 @@ processus sont donc plus macro, ils ne vont pas traiter l'expérience
 utilisateur, mais plutôt la navigation au sein de l'application, ou 
 encore des enchainements logiques.
 
-Par exemple : L'utilisateur s'inscrit, puis il se connecte à un 
-restaurant, puis une question lui est posée, il peut répondre par oui ou 
-non. S’il répond oui, il va se passer un événement.
+Par exemple : l'utilisateur s'inscrit, puis il se connecte à un 
+restaurant, ensuite une question lui est posée, il peut y répondre par oui ou 
+non. S’il répond oui, cela déclenchera un événement.
 
 Dans cette phrase, une grande partie des informations est inutile : les 
 conjonctions de coordination, la ponctuation... Transposer ce type de 
 réflexion sous forme graphique assure une meilleure lisibilité de la 
 complexité. Limiter les phrases permet de traduire plus facilement aux 
-équipes ne parlant pas français. Voire même de directement produire des 
+équipes ne parlant pas français, voire même de produire directement des 
 documents en anglais de manière plus aisée.
 
 Mais ce n'est pas l'intérêt principal, en réalité, cet exercice me 
-permet de... faire faire le développement directement par le métier. 
-Ces processus métier sont en effet directement transposables en code, 
-ainsi le développeur va aller beaucoup plus vite, et diminuer le nombre
+permet de faire faire le développement directement par le métier. 
+Ces processus métier sont en effet directement transposables en code. 
+Ainsi, le développeur va aller beaucoup plus vite et diminuer le nombre
 d'erreurs qui est généralement imputable à la mauvaise compréhension du 
 besoin exprimé.
 
@@ -374,41 +375,41 @@ besoin exprimé.
 Le principal paradoxe de notre société est que, bien qu'étant une 
 entreprise du numérique, on ne digitalise que très peu les échanges. 
 Ainsi, souvent il s'agit de conversations orales, pas toujours 
-opportunes. Il n'est donc pas rare d'être interrompu lors de son travail 
+opportunes. Il n'est donc pas rare d'être interrompu pendant son travail 
 par une question posée, etc... Ce problème vient, je pense, 
 principalement du fait que les locaux sont dans un espace ouvert et 
 restreint ce qui favorise ce type d'échanges. 
 
 Ces interruptions sont très dangereuses pour la productivité. En effet, 
-d'après une étude de 2013 du MSU[^MSU], une interruption de moins de 3 
+d'après une étude de 2013 du Michigan State University[^MSU], une interruption de moins de 3 
 secondes engendre un taux d'erreur doublé. Le temps moyen pour retrouver
 sa concentration initiale après interruption, observée par Gloria Mark, 
 une universitaire californienne, serait de 25 minutes en moyenne. Enfin, 
-d'après une troisième étude de 2005, qualifié dans un rapport de Basex, 
+une troisième étude de 2005, qualifiée dans un rapport de Basex, 
 montrait que ces interruptions faisaient perdre aux salariés environ 28% 
 du temps de travail.
 
-[^MSU]: Michigan State University
+[^MSU]: le Michigan State University (MSU) est une prestigieuse université fondée en 1855. Il s'agit de la 6ème plus importante université en nombre d'étudiants.
 
 Ces effets sont quantifiables, mais d'après Christophe André, psychiatre 
 à l’Hôpital Sainte-Anne, ces stimuli diminuent le bien-être, et 
 augmentent l’épuisement cognitif, l’anxiété et le stress, l’énergie 
-mentale, quant à elle, diminue. Cela se traduit par l'épuisement de 
+mentale, quant à elle, diminue. Cela se traduit par l'épuisement en 
 fin de journée. 
 
-Des effets long terme s'installent également : le cortisol[^cortisol] 
+Des effets à long terme s'installent également : le cortisol[^cortisol] 
 entrave les défenses immunitaires et la qualité du sommeil. Ainsi, c'est 
 notre capacité à prendre la bonne décision qui se trouve impactée.
 
 [^cortisol]: Il s'agit de l'hormone du stress.
 
-Il faut considérer la date de ces études, les chiffres ont probablement 
+Il faut considérer la date de ces études : les chiffres ont probablement 
 augmenté depuis, avec l'avènement des réseaux sociaux, des chats 
 d'entreprise, etc...
 
-On ne peut couper la communication, physique, il faut alors l'optimiser. 
+On ne peut couper la communication physique, il faut alors l'optimiser. 
 Ainsi, à but d'expérience, j'ai fait une semaine de télétravail la 
-première semaine d'aout. Ma performance a été très largement augmentée 
+première semaine d'août. Ma performance a été très largement augmentée 
 par l'absence de présence physique. 
 
 Ce mode n'est pas adapté aux périodes où mon équipe est sur place, en 
@@ -417,8 +418,7 @@ et physiquement. La société devant déménager en septembre, c’est
 l'occasion parfaite de cloisonner un peu plus les équipes. C'est un 
 premier pas. Ensuite, l'utilisation du mode "Ne pas déranger" de macOS 
 est intéressant car il bloque les notifications des différents 
-logiciels. Il est intéressant de penser et promouvoir cette manière de 
-fonctionner : On avance et travaille sur une tâche, une fois qu'elle est
+logiciels. Il est intéressant de penser une nouvelle manière de fonctionner et de la promouvoir : on avance et travaille sur une tâche, une fois qu'elle est
 finie ou que l'on s'autorise une pause, on regarde les notifications en
 attente dans la barre des tâches.
 
@@ -446,10 +446,10 @@ mettre en pratique.
 
 Je n'ai pas trouvé de solution finale pour l'instant, cependant je pense
 que c'est une question assez centrale et stratégique qui doit poser 
-problème à beaucoup d'autre structures.
+problème à beaucoup d'autres structures.
 
-Un point que j'ai remarqué également, la messagerie d'entreprise, Slack,
-est utilisé à mauvais escient, pour suivre des process, transmettre des 
+J'ai également remarqué que la messagerie d'entreprise, Slack,
+est utilisée à mauvais escient, pour suivre des process, transmettre des 
 documents... Le tout dans l'objectif de faire avancer le travail. Je 
 pense que cet outil ne devrait pas être utilisé en remplacement des 
 mails, l'interruption y est plus grande. Un mail pose plus de réflexion, 
@@ -472,8 +472,8 @@ il fut nécessaire de trouver une solution complémentaire.
 Lors de la conception d'une nouvelle fonctionnalité, de nombreux acteurs
 sont impliqués. Après identification du besoin par l'équipe commerciale, 
 un micro cahier des charges est créé, des maquettes sont ensuite créées 
-par notre designer. Ensuite l'équipe technique entre en jeu, il faut 
-modéliser la fonctionnalité, puis concevoir son programme côté serveur
+par notre designer. Ensuite, l'équipe technique entre en jeu, il faut 
+modéliser la fonctionnalité puis concevoir son programme côté serveur
 (Il s'agit de la partie métier de la fonctionnalité, le serveur s'occupe
 de gérer toute la logique métier, les contrôles, les droits, etc...). 
 L'équipe backend[^backend] doit concevoir cette partie, mais également la
@@ -483,7 +483,7 @@ Une fois tout cela fait, les équipes mobiles peuvent travailler en
 parallèle pour concevoir l'interface sur les différents systèmes
 supportés (iOS et Android). 
 La conception du backoffice[^backoffice] peut également démarrer. Pour
-rappel nous en avons deux : le premier pour notre usage interne, le
+rappel, nous en avons deux : le premier pour notre usage interne, le
 second pour la gestion par les restaurateurs.
 
 [^backend]: Il s'agit de la partie non visible, par opposition au
@@ -499,7 +499,7 @@ des informations contextuelles...). La première force de ce chat réside
 dans son expérience. Ce chat est historiquement exploité comme un
 artifice visuel, les requêtes transitant entre le serveur et
 l'application représentent une demande, et les messages sont générés sur
-l'application. Cette méthode permet de changer l'apparence ultérieurement,
+l'application. Cette méthode permet de changer l'apparence ultérieurement
 mais ne permet pas d'exploiter les avantages énormes d'un chat. En effet,
 dans cette recherche d'amélioration de productivité, j'ai défini une
 nouvelle version, qualifiée de refonte technique, de l'application : la
@@ -511,7 +511,7 @@ service de messagerie classique... À quelques différences près.
 En effet, dans notre système, l'échange va se passer de la manière suivante :
 
 L'utilisateur va ouvrir l'application, se connecter à sa table. À partir
-de là, la liste des actions possibles va être chargée sur son téléphone,
+de là, la liste des actions possibles va être chargée sur son téléphone
 et alimenter la barre d'action en bas de l'application. L'avantage de
 cette récupération dynamique de cette barre d'action est la
 personnalisation suivant les besoins de l'utilisateur, et les
@@ -529,7 +529,7 @@ transparents pour l'utilisateur (demande de ses coordonnées GPS), soit
 interactif (demande d'entrer un nom). 
 
 Le déclenchement d'une action permet au service de signaler la demande 
-au serveur, et de générer deux messages : le premier correspondant à 
+au serveur et de générer deux messages : le premier correspondant à 
 celui envoyé par l'utilisateur, le second étant la réponse à 
 l'utilisateur. Pour faire patienter l'utilisateur lors de la génération 
 de son propre message, on exploite un pictogramme pour générer sa bulle 
@@ -541,19 +541,19 @@ les aléas réseau nous forcent à prévoir ce délai.
 Chaque message en retour peut être accompagné d'une liste d'actions
 possibles, des choix supplémentaires servant à répondre dans le cas où
 une demande de complément d'information est nécessaire (par exemple, le
-client demande un burger, on va lui demander la cuisson de sa viande).
+client demande un burger, le type cuisson de sa viande lui sera demandée).
 
-Ainsi, on identifie deux types d'échanges : les messages, et les
+Ainsi, on identifie deux types d'échanges : les messages et les
 actions. La flexibilité et l'astuce se trouvent sur le fait que tout est
 généré côté serveur, seuls les prérequis d'actions doivent être
 implémentés côté application. On passe ainsi d'un modèle complexe de
-développement où pour chaque évolution, les développeurs de l'application
-sont mobilisés à un modèle plus léger où la majorité des évolutions
-peuvent être effectuées sur la backend de l'application, et où seulement
+développement, où, pour chaque évolution, les développeurs de l'application
+sont mobilisés, à un modèle plus léger, où, la majorité des évolutions
+peuvent être effectuées sur le backend de l'application. De plus, seules
 les interfaces spécifiques et la gestion de nouveaux types de prérequis
 (par exemple l'implémentation d'une fonctionnalité d'une application
 tierce) doivent mobiliser ces équipes de développement mobile. Comme ce 
-cout est généralement en fonction des plateformes supportées, cela
+coût est généralement en fonction des plateformes supportées, cela
 réduit également la probabilité de bugs sur une plateforme, le nombre de
 tests à effectuer à chaque nouveau développement, etc...
 
@@ -563,25 +563,25 @@ ressource humaine est un des vecteurs majeurs de cette accélération.
 ### Externalisation et recrutement
 
 L'externalisation, en soi, est un sujet délicat : peut-on se séparer de
-la compétence clef, coeur de métier d'une société ? Dans notre cas, on 
-fourni une application mobile, est il dont raisonnable d'externaliser le
+la compétence clef, coeur de métier d'une société ? Dans notre cas, nous 
+fournissons une application mobile, est-il dont raisonnable d'externaliser le
 développement mobile ?
 
 Notre stratégie de base était d'externaliser ces compétences le temps 
 d'avoir les fonds nécessaires à leur internalisation. Il était hors de
-question de rester chez notre prestataire pour des questions de valeur. 
+question de rester chez notre prestataire pour des questions de qualité/prix. 
 Cette question de la perception de la valeur est centrale : est-ce que 
 le coût vaut réellement le travail produit ? Les éléments de réponse 
-peuvent venir en se posant les bonnes questions : Suis je prêt à 
+peuvent venir en se posant les bonnes questions : suis je prêt à 
 accepter une qualité moindre ? Quelle est la valeur que je donnerais à 
 cette qualité produite ?
 
 Concernant ce prestataire, son coût élevé ne semblait pas être justifié
 par la qualité de sa prestation : nous avions perdu beaucoup de temps à
-trouver des problèmes qui auraient pu être détectés en amont. Il était 
-alors temps de partir à la recherche d'une compétence permettant de 
+trouver des problèmes qui auraient pu être détectés en amont. C'était 
+alors le moment de partir à la recherche d'une compétence permettant de 
 continuer le travail. Il s'est ainsi posé un certain nombre de 
-questions, dont la centrale était : Doit-on continuer à externaliser ?
+questions, dont la centrale était : doit-on continuer à externaliser ?
 
 Dans la prolongation de cette recherche d'accélération, quel est le
 meilleur moyen de ne pas être ralenti, pour quels sacrifices et à quel 
@@ -594,7 +594,7 @@ d'augmenter le nombre de ressources disponibles pour le projet de
 manière simple et opaque. En revanche, un prestataire doit passer du
 temps à trouver des clients, c'est pour cela qu'il est généralement plus
 cher qu'un salarié. L'arrivée de la ressource est donc moins chère, mais
-le long terme l'est quant à lui beaucoup plus.
+le long terme l'est, quant à lui, beaucoup plus.
 
 En effet, un processus de recrutement est coûteux sur le secteur du
 numérique, c'est un processus généralement assez long, qui comporte du
@@ -644,7 +644,7 @@ l'API afin de pouvoir exécuter une action.
 
 Je me suis alors mis à la recherche de freelances pour la conception 
 des applications mobiles dans un premier temps. Je me suis alors 
-confronté à un problème majeur de coûts. En effet, à Paris, les 
+trouvé confronté à un problème majeur de coûts. En effet, à Paris, les 
 développeurs mobiles demandent allègrement 350 à 550 euros par jour de
 prestation, pour un niveau junior[^junior]. Le risque était alors de 
 s'exposer à un coût mensuel de plus de 14 000 euros par mois, pour le 
@@ -686,7 +686,7 @@ l'international, ainsi leur langue historique, le Filipino, s'est
 trouvée, en 1987, rejointe par l'anglais comme langue nationale. La 
 grande majorité des Philippins sont donc bilingues, ce qui facilite bien
 plus les échanges qu'avec un autre pays. Cela tombe bien, pour des 
-raisons de conventions, tout le code produit pour l'application l'est en 
+raisons de conventions, tout le code produit pour l'application est en 
 anglais. C'était un choix par habitude, et cette aventure me montre 
 toute l'utilité d'une telle décision.
 
@@ -706,7 +706,7 @@ trouvent être moins chères pour deux raisons : il n'y a pas de gestion
 de projet à effectuer pour l'agence et le risque d'un dépassement de 
 temps passé sur une tâche se trouve déplacé de l'agence vers le client. 
 Ce dernier point m'intéresse beaucoup, car il va être un véritable levier 
-pour moi de responsabilisation de nos équipes interne. En effet, il 
+pour moi de responsabilisation de nos équipes internes. En effet, il 
 va être possible de montrer et de quantifier l'impact de notre 
 désorganisation sur les coûts de production. L'objectif de cette prise 
 de conscience étant de limiter les retours sur décision, entre autres.
@@ -714,24 +714,25 @@ de conscience étant de limiter les retours sur décision, entre autres.
 J'ai alors décidé de prendre deux ressources sur un engagement d'un 
 mois : un développeur Android Junior et un développeur iOS/Android 
 sénior, le rôle de ce second étant d'avancer sur l'application iOS, mais 
-également de pouvoir aider le développeur Android au besoin.
+également de pouvoir aider le développeur Android si besoin.
 
 Il fut nécessaire pour moi de mettre en place des outils de gestion et 
 de contrôle qui n'étaient pas nécessaires avant. En effet, les agences 
-avec lesquelles nous travaillions avaient en interne tous les outils de 
+avec lesquelles nous travaillions avaient, en interne, tous les outils de 
 développement et de gestion de projet. J'ai donc préféré un 
 fonctionnement simple et standard avec Trello, pour la gestion des 
-tâches à faire, sur un modèle très SCRUM. De plus, ce fut l'occasion 
+tâches à faire, sur un modèle très SCRUM[^scrum]. De plus, ce fut l'occasion 
 pour moi d'installer un serveur de gestion de versions (Gogs, pour le 
 système de gestion de versions Git), et un système d'intégration 
 continue (Strider). Ce dernier me renvoyant en temps réel les résultats 
 sur Slack. Enfin, ne connaissant pas la politique du pays ou des pays 
-pas lesquels transitent les données, j'ai préféré opter pour une méthode 
+par lesquels transitent les données, j'ai préféré opter pour une méthode 
 de communication chiffrée de bout en bout[^e2ee] entre le prestataire 
 et notre équipe. Ainsi, le choix de Wire, logiciel conçu par les mêmes 
-personnes que Skype et partiellement opensource (Le logiciel est 
+personnes que Skype et partiellement opensource (le logiciel est 
 opensource, le serveur ne l'est pas), fut assez évident.
 
+[^scrum]: La méthodologie de travail SCRUM est un cadre souple basé sur la finalisation rapide et itérative de fonctionnalités.
 [^e2ee]: Le chiffrement de bout en bout (Abrégé E2EE pour end-to-end 
 encryption) est un principe où seuls les logiciels client qui 
 communiquent entre eux ont une clef permettant de déchiffrer un message. 
@@ -739,7 +740,7 @@ Ainsi, ni le réseau ni le serveur ne peuvent connaitre le contenu d'un
 message.
 
 Après un mois de prestation, et après avoir validé la compétence des 
-prestataires, afin d'aller plus vite un choix a été fait de prendre une
+prestataires, afin d'aller plus vite, le choix a été fait de prendre une
 ressource supplémentaire. Nous sommes donc actuellement sur un modèle
 d'un développeur iOS, un développeur Android, et un développeur
 ambivalent. Nous nous sommes également engagés sur une durée plus longue
@@ -751,12 +752,12 @@ qualité/prix.
 Startechup se trouvant à Cebu City, il y a 6 heures de décalage horaire. 
 Il est nécessaire de faire de cette contrainte un atout. Ainsi, ma 
 principale préoccupation était qu'ils aient plusieurs tâches sur 
-lesquelles travailler dans le cas où pour une tâche ils étaient en 
-attente d'informations. Leur consigne étant alors de passer à une autre 
+lesquelles travailler dans le cas où, pour une tâche, ils étaient en 
+attente de renseignements complémentaires. Leur consigne étant alors de passer à une autre 
 tâche en cas de manque d'informations. Je me réserve ainsi du temps dans
-ma matinée pour faire un point avec eux, et pour répondre à leurs 
+la matinée pour faire un point avec eux, et pour répondre à leurs 
 questions. La fin d'après-midi me permet de faire des revues de code de
 leur travail, ou encore de faire des tests fonctionnels sur les 
 fonctionnalités produites. Ainsi je leur fais mes retours qui seront 
-traités pendant ma nuit. De cette manière, le décalage horaire est plus 
+traités pendant la nuit. De cette manière, le décalage horaire est plus 
 une force qu'une limitation.
